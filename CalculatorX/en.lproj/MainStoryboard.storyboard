@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
+    </dependencies>
+    <scenes>
+        <!--CalculatorX View Controller-->
+        <scene sceneID="5">
+            <objects>
+                <viewController id="2" customClass="CalculatorXViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back7.png" id="XKu-7c-QNB">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="570"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f1X-TO-MvB">
+                                <rect key="frame" x="28" y="20" width="266" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iRu-Oj-0P7">
+                                <rect key="frame" x="28" y="196" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="numberPressed:" destination="2" eventType="touchUpInside" id="Y7e-pN-ZUY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="JTX-zO-GOI">
+                                <rect key="frame" x="165" y="386" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="numberPressed:" destination="2" eventType="touchUpInside" id="Ox3-31-prk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4Rt-PU-bba">
+                                <rect key="frame" x="94" y="196" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="numberPressed:" destination="2" eventType="touchUpInside" id="fch-fy-Y2c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WN3-It-UZ4">
+                                <rect key="frame" x="165" y="196" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="numberPressed:" destination="2" eventType="touchUpInside" id="Org-hK-1Vv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="i6M-kb-WfC">
+                                <rect key="frame" x="26" y="263" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="numberPressed:" destination="2" eventType="touchUpInside" id="Pq2-On-LQX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eI2-aU-tI4">
+                                <rect key="frame" x="94" y="263" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="numberPressed:" destination="2" eventType="touchUpInside" id="j8Q-VU-hhr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wf3-MC-Cfa">
+                                <rect key="frame" x="165" y="263" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="numberPressed:" destination="2" eventType="touchUpInside" id="93N-jn-Wu1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WZK-iH-HzZ">
+                                <rect key="frame" x="26" y="325" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="numberPressed:" destination="2" eventType="touchUpInside" id="6Rp-hd-7Nl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="4JD-GA-JRe">
+                                <rect key="frame" x="26" y="386" width="123" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="numberPressed:" destination="2" eventType="touchUpInside" id="OAM-gF-sSi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ryc-pV-uXm">
+                                <rect key="frame" x="94" y="325" width="57" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="numberPressed:" destination="2" eventType="touchUpInside" id="mbq-OG-RW7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="n6H-le-KTF">
+                                <rect key="frame" x="162" y="325" width="61" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="numberPressed:" destination="2" eventType="touchUpInside" id="8ZU-l1-P77"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gSQ-Wo-b9z">
+                                <rect key="frame" x="239" y="196" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="-">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="operatorButton:" destination="2" eventType="touchUpInside" id="oIL-Uu-upt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lab-yM-TUN">
+                                <rect key="frame" x="28" y="134" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="AC">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="initialize:" destination="2" eventType="touchUpInside" id="ZuR-If-9iF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qd7-28-Sx0">
+                                <rect key="frame" x="96" y="134" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="%">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="percentButton:" destination="2" eventType="touchUpInside" id="Afm-AX-yd4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MdF-9F-IJa">
+                                <rect key="frame" x="170" y="141" width="51" height="39"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="+/-">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeSign:" destination="2" eventType="touchUpInside" id="Gam-dH-kMP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qKz-ZF-hhW">
+                                <rect key="frame" x="239" y="134" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="operatorButton:" destination="2" eventType="touchUpInside" id="Q3v-Cg-39W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="UVN-ev-2wv">
+                                <rect key="frame" x="239" y="263" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="×">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="operatorButton:" destination="2" eventType="touchUpInside" id="pvz-pQ-zXz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="A5x-dk-R1n">
+                                <rect key="frame" x="239" y="325" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="÷">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="operatorButton:" destination="2" eventType="touchUpInside" id="HAe-hx-0aQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zi2-co-tGm">
+                                <rect key="frame" x="239" y="386" width="55" height="54"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="27"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="solveOutcome:" destination="2" eventType="touchUpInside" id="t9G-Ib-cmD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Wilson.H" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8uL-lQ-7Qa">
+                                <rect key="frame" x="78" y="460" width="167" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="19"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="oor-xD-Eg5"/>
+                    <connections>
+                        <outlet property="displayLabel" destination="f1X-TO-MvB" id="o1c-EN-3fn"/>
+                        <outlet property="numberButton" destination="iRu-Oj-0P7" id="UoP-2o-l47"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back7.png" width="320" height="568"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
